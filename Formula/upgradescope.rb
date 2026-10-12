@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Rendered by script/render-formula.sh from the checksums.txt of upgradescope
-# release v0.2.2, after its keyless cosign signature was verified
+# release v0.3.0, after its keyless cosign signature was verified
 # (.github/workflows/update.yml). Do not edit by hand: edit formula.rb.tmpl.
 class Upgradescope < Formula
   desc "Kubernetes upgrade-readiness scanner: removed APIs, EOL add-ons, skew"
@@ -11,23 +11,23 @@ class Upgradescope < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.2.2/upgradescope_darwin_arm64.tar.gz"
-      sha256 "a9a343d23745222cbcbaab7c8ed844222c911ac6dc909c9e443edf5735766b91"
+      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.3.0/upgradescope_darwin_arm64.tar.gz"
+      sha256 "91d3b5c1a98cc9b021cc770d8c1f3ca44d11237d7e3bc2b7bbb124bad3495b7f"
     end
     on_intel do
-      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.2.2/upgradescope_darwin_amd64.tar.gz"
-      sha256 "9c1d7833d794f5f9c001b85cd2980bea3fae6f0f09e37f91b1e2222a4b367763"
+      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.3.0/upgradescope_darwin_amd64.tar.gz"
+      sha256 "6aca800869aa3bf2d7f8891675ab7bd32bdb53d932b66159d4f79b089ee41249"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.2.2/upgradescope_linux_arm64.tar.gz"
-      sha256 "a1532e43e83d20e2b389af8799d73a9b33f1776e199cdf441456bcff6f7d22a5"
+      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.3.0/upgradescope_linux_arm64.tar.gz"
+      sha256 "10f701cf9edc5cda5f2a1c696f09cf54b42105d5cce2121a3ba6fe0bc7605d3a"
     end
     on_intel do
-      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.2.2/upgradescope_linux_amd64.tar.gz"
-      sha256 "e4a849e8c8417e01ee8b4933d32e1f2b628dcbd7370af1ac84169e725d014acc"
+      url "https://github.com/abd-ulbasit/upgradescope/releases/download/v0.3.0/upgradescope_linux_amd64.tar.gz"
+      sha256 "a32b6c86a9b2d96001bf4d67234111ec58f45cf4ae059c7d0a8ec360b19237b7"
     end
   end
 
